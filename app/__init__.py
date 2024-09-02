@@ -16,7 +16,7 @@ def create_app():
         Returns:
             Flask: The configured Flask application instance.
     """
-    app = Flask(__name__) 
+    app = Flask(__name__)
     init_routes(app)
 
     return app
