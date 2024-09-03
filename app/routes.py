@@ -44,13 +44,3 @@ def init_routes(app):
             str: The rendered HTML template for the cool page.
         """
         return render_template('cool.html')
-
-    @app.route('/contact')
-    def contact():
-        """
-        Handle the contact page route.
-
-        Returns:
-            str: The rendered HTML template for the contact page.
-        """
-        return render_template('contact.html')
